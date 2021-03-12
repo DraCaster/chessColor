@@ -37,7 +37,7 @@ describe('ChallengeTemplate', () => {
     /**
      * TEST DESCRIPTION
      */
-    it('Test4: when cell1="B3" and cell2="B5" should return false', () => {
+    it('Test4: when cell1="B3" and cell2="B5" should return true', () => {
         let result = challengeFunction("B3", "B5")
         let expected = true
 
